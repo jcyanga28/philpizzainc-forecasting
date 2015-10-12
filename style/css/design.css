@@ -1,0 +1,52 @@
+ body{
+	 /*background: url(../images/ppi/araneta.png) no-repeat center center fixed #ffffff; 
+	 background-size: 100% 100%;*/	 
+	 /*background: #fff;*/
+	 font-family:  Georgia, Times, serif;
+	 color: #333;
+}
+
+#div_container{
+	margin: 0 auto; 
+	width:900px;
+	background-color: #ffffff; 
+	border:solid 2px whitesmoke; 
+	border-radius: 10px;
+	/*opacity: 0.9; filter: alpha(opacity=60); /* For IE8 and earlier */*/
+
+	
+}
+
+.div_header{
+	width: 100%;
+}
+
+#title_container{
+	background-color: #428bca;
+	color:#fff;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+#title_design{
+	text-shadow: 2px 2px #000000; 
+}
+
+#ppi_logo{
+	height:80px;
+	width:385px;
+}
+
+#footer{
+	width:100%;
+	height:85px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:#000;
+	border-top: solid 2px #fff;
+}
+
+#footer_content{
+	text-align:center;margin-top: 25px;color:#333;font-family: PT Sans; font-size: 14px; 
+}
